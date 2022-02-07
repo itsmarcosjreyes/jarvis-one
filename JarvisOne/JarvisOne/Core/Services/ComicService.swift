@@ -1,7 +1,7 @@
 import Foundation
 import RxSwift
 
-struct ComicService {
+class ComicService {
     private let clientApi = API()
     private let bag = DisposeBag()
 
