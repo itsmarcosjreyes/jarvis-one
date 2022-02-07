@@ -1,6 +1,5 @@
 def shared_pods
   pod 'SDWebImage', '~> 5.12.3'
-  pod 'ReachabilitySwift', '~> 5.0.0'
   pod 'RxAlamofire', '~> 6.1.1'
   pod 'RxCocoa', '~> 6.2.0'
   pod 'RxSwift', '~> 6.2.0'

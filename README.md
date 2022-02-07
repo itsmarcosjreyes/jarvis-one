@@ -39,6 +39,7 @@ A JARVIS-inspired app that uses MARVEL's developer API to fetch any Comic you wa
 - Coordinator Pattern to easily trigger any User flow from anywhere while maintaing Dependency Inversion
 - Protocol driven ViewModels that allow for very clear logic and expected behaviors
 - Automatic Retry Logic at the API Networking Class
+- SwiftLint as a Build Phase to ensure clean and legible code matching Swift Standards
 
 ## Project Structure and its importance
 The project is essentially divided in `Core` and `iOS` as of now.
