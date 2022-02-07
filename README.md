@@ -9,6 +9,10 @@ A JARVIS-inspired app that uses MARVEL's developer API to fetch any Comic you wa
 - Apple Developer Account: [https://developer.apple.com/programs/](https://developer.apple.com/programs/)
 - MARVEL's Developer API Keys: [https://developer.marvel.com/](https://developer.marvel.com/)
 
+## JARVIS-one 🤖 Screenshots
+<img src= "supporting-images/jarvis-one-ss-01.png">
+<img src= "supporting-images/jarvis-one-ss-02.png">
+
 ## Getting started
 1. Clone this repo
 2. Open `JarvisOne.xcworkspace`; ⚠️ NEVER open the `.xcodeproj` file
