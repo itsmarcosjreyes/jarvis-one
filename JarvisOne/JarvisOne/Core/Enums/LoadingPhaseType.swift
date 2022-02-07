@@ -1,0 +1,3 @@
+enum LoadingPhaseType {
+    case apiKey
+}

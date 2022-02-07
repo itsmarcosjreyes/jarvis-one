@@ -1,0 +1,30 @@
+def shared_pods
+  pod 'SDWebImage', '~> 5.12.3'
+  pod 'ReachabilitySwift', '~> 5.0.0'
+  pod 'RxAlamofire', '~> 6.1.1'
+  pod 'RxCocoa', '~> 6.2.0'
+  pod 'RxSwift', '~> 6.2.0'
+  pod 'SwiftKeychainWrapper', '~> 4.0.1'
+  pod 'SwiftLint', '~> 0.43.1'
+end
+
+target 'JarvisOne' do
+  inherit! :search_paths
+  platform :ios, '13.6'
+  use_frameworks!
+  shared_pods
+end
+
+target 'JarvisOneTests' do
+  inherit! :search_paths
+  platform :ios, '13.6'
+  use_frameworks!
+  shared_pods
+end
+
+target 'JarvisOneUITests' do
+  inherit! :search_paths
+  platform :ios, '13.6'
+  use_frameworks!
+  shared_pods
+end

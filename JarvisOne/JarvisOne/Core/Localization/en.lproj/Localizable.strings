@@ -1,0 +1,30 @@
+// MARK: Intro
+"apiKey" = "API Key (Public)";
+"apiKeyMessage" = "Please paste in your Marvel™️ developer API keys 😎";
+"apiKeyPrivate" = "API Key (Private)";
+"apiKeyErrorMessage" = "Please verify your Marvel™️ developer API keys";
+"unlockJarvis" = "Unlock JARVIS One";
+"welcomeTitle" = "Welcome to JARVIS:One";
+
+// MARK: Navigation
+"gotIt" = "Got it";
+"next" = "Next";
+"previous" = "Previous";
+"search" = "Search";
+
+// MARK: Comic Id
+"comicId" = "Comic ID";
+"comicIdInvalidMessage" = "Comic ID can only be numbers. Please check and try again";
+"enterComicIdMessage" = "Enter the Comic ID you want JARVIS🤖 to search";
+
+// MARK: Comic Detail
+"addToLibrary" = "Add to Library";
+"comicNotFoundMessage" = "🤖 JARVIS couldn't find the Comic you were looking for 😔";
+"readNow" = "Read Now";
+"readOffline" = "Read Offline";
+"markAsRead" = "Mark as Read";
+
+// MARK: Errors fallback
+"genericErrorCode" = "JO1000";
+"genericErrorTitle" = "Oops";
+"genericErrorMessage" = "JARVIS is encountering technical difficulties at the moment. Please try again";

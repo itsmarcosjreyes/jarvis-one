@@ -1,0 +1,55 @@
+PODS:
+  - Alamofire (5.5.0)
+  - ReachabilitySwift (5.0.0)
+  - RxAlamofire (6.1.1):
+    - RxAlamofire/Core (= 6.1.1)
+  - RxAlamofire/Core (6.1.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 6.0)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SDWebImage (5.12.3):
+    - SDWebImage/Core (= 5.12.3)
+  - SDWebImage/Core (5.12.3)
+  - SwiftKeychainWrapper (4.0.1)
+  - SwiftLint (0.43.1)
+
+DEPENDENCIES:
+  - ReachabilitySwift (~> 5.0.0)
+  - RxAlamofire (~> 6.1.1)
+  - RxCocoa (~> 6.2.0)
+  - RxSwift (~> 6.2.0)
+  - SDWebImage (~> 5.12.3)
+  - SwiftKeychainWrapper (~> 4.0.1)
+  - SwiftLint (~> 0.43.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ReachabilitySwift
+    - RxAlamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SwiftKeychainWrapper
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  RxAlamofire: beb75a1c452d0de225651db4903f5d29d034a620
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
+  SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+
+PODFILE CHECKSUM: fd7065a89d87db0f5fe6c1ba5bb333fd1c2817fb
+
+COCOAPODS: 1.11.2

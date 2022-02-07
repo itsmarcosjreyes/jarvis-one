@@ -1,0 +1,110 @@
+included:
+  - JarvisOne
+
+excluded:
+  - Pods
+
+only_rules:
+  - anyobject_protocol
+  - attributes
+  - balanced_xctest_lifecycle
+  - class_delegate_protocol
+  - closing_brace
+  - closure_end_indentation
+  - closure_parameter_position
+  - closure_spacing
+  - colon
+  - comma
+  - comment_spacing
+  - compiler_protocol_init
+  - computed_accessors_order
+  - conditional_returns_on_newline
+  - control_statement
+  - deployment_target
+  - discarded_notification_center_observer
+  - discouraged_assert
+  - discouraged_optional_boolean
+  - duplicate_enum_cases
+  - duplicate_imports
+  - empty_parentheses_with_trailing_closure
+  - empty_string
+  - expiring_todo
+  - explicit_enum_raw_value
+  - explicit_init
+  - file_name_no_space
+  - force_cast
+  - force_try
+  - force_unwrapping
+  - function_parameter_count
+  - generic_type_name
+  - identical_operands
+  - identifier_name
+  - implicitly_unwrapped_optional
+  - inclusive_language
+  - indentation_width
+  - leading_whitespace
+  - legacy_constant
+  - legacy_objc_type
+  - let_var_whitespace
+  - literal_expression_end_indentation
+  - mark
+  - multiline_arguments
+  - multiline_arguments_brackets
+  - multiline_function_chains
+  - multiline_literal_brackets
+  - multiline_parameters
+  - multiline_parameters_brackets
+  - no_fallthrough_only
+  - no_space_in_method_call
+  - notification_center_detachment
+  - number_separator
+  - opening_brace
+  - operator_usage_whitespace
+  - operator_whitespace
+  - overridden_super_call
+  - prefer_self_type_over_type_of_self
+  - private_action
+  - private_outlet
+  - private_over_fileprivate
+  - quick_discouraged_call
+  - reduce_boolean
+  - redundant_nil_coalescing
+  - redundant_objc_attribute
+  - redundant_string_enum_value
+  - return_arrow_whitespace
+  - statement_position
+  - strong_iboutlet
+  - switch_case_alignment
+  - syntactic_sugar
+  - todo
+  - toggle_bool
+  - trailing_comma
+  - trailing_newline
+  - trailing_semicolon
+  - trailing_whitespace
+  - type_name
+  - unneeded_break_in_switch
+  - unneeded_parentheses_in_closure_argument
+  - unowned_variable_capture
+  - untyped_error_in_catch
+  - unused_optional_binding
+  - vertical_parameter_alignment
+  - vertical_parameter_alignment_on_call
+  - vertical_whitespace
+  - vertical_whitespace_between_cases
+  - vertical_whitespace_closing_braces
+  - vertical_whitespace_opening_braces
+  - void_return
+  - weak_delegate
+  - xctfail_message
+  - yoda_condition
+
+identifier_name:
+  min_length: # only min_length
+    error: 2 # only error
+  excluded: # excluded via string array
+    - i
+    - x
+    - id
+    - URL
+    - GlobalAPIKey
